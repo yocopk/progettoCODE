@@ -1,0 +1,54 @@
+﻿# Cos'è Git?
+
+**Git** è un sistema di controllo delle **versioni**, progettato per gestire progetti di qualsiasi dimensione con comodità ed efficienza. Viene utilizzato principalmente dagli sviluppatori di software per tenere traccia delle modifiche del codice durante lo sviluppo di un progetto.
+
+**Git** registra ogni modifica del codice dando la possibilità di fare un rollback (tornare ad una versione precedente) qualora si presentasse la necessità.
+
+## Qual è la storia di Git?
+
+**Git** è un termine gergale inglese che indica una persona giovane o un giovane poco affidabile. Tuttavia, nel suo contesto il nome "Git" è stato scelto da ***Linus Torvalds***, con l'intento di creare un nome un pò sarcastico, suggerendo che fosse un sistema "testardo" o "difficile" da usare. In realtà **Git** è diventato estremamente popolare nello sviluppo software, nonostante il suo nome possa dare un'idea di ostinazione e difficoltà.
+
+## Quali sono i comandi più comuni?
+
+Ecco alcuni esempi di comandi **Git** da effettuare tramite terminale con il loro significato:
+
+- **git init** // Inizializza un nuovo repository Git nella directory corrente:
+-  **git clone [URL]** // Clona un repository Git esistente dalla sua URL remota sulla tua macchina locale.
+-  **git add [file]** // Aggiunge un file al tuo "staging area", preparandolo per essere committato.
+- **git commit -m [messaggio]** // Committa le modifiche presenti nel tuo staging area con un messaggio di commint descrittivo.
+-  **git push** // Carica i tuoi commit locali sul repository remoto.
+-  **git pull** // Aggiorna il tuo repository locale con le modifiche dal repository remoto.
+-  **git branch** // Visualizza l'elenco dei rami nel repository.
+-  **git checkout [branch]** // Passa a un altro ramo del repository.
+-  **git merge [branch]** // Unisce un altro ramo al ramo attuale.
+
+## Dove uso questi comandi?
+
+I comandi **Git** vengono utilizzati principalmente tramite la riga di comando o la shell del tuo sistema operativo. Ecco come puoi utilizzarli:
+
+1.  **Apri il terminale o la shell**: Prima di tutto, apri il terminale o la shell del tuo sistema operativo. Puoi farlo cercando "Terminale" (su macOS e Linux) o "Prompt dei comandi" (su Windows) nel menu di avvio.
+    
+2.  **Naviga nella directory del tuo progetto**: Utilizza il comando `cd` per navigare nella directory del tuo progetto. Ad esempio, se il tuo progetto si trova nella cartella "Progetto", digita `cd Progetto`.
+    
+3.  **Esegui i comandi Git**: Una volta nella directory del tuo progetto, puoi utilizzare i comandi Git come descritto in precedenza. Ad esempio, per inizializzare un nuovo repository Git, esegui `git init`. Per clonare un repository esistente, esegui `git clone [URL]`, e così via.
+    
+
+Ricorda che è importante essere nella **directory corretta** del tuo progetto quando esegui i comandi Git, in modo che i comandi agiscano sul **
+**.
+
+Se preferisci un'interfaccia grafica, ci sono anche client Git con interfaccia utente che ti permettono di eseguire le operazioni Git utilizzando un'interfaccia grafica anziché la riga di comando. Alcuni esempi includono GitHub Desktop, GitKraken e SourceTree.
+
+
+# Cos'è GitHub?
+
+**GitHub** è una piattaforma di hosting di codice basata su Git. Fornisce agli sviluppatori uno spazio per ospitare i propri repository (un archivio di dati ed informazioni), collaborare con altri sviluppatori, gestire le problematiche e i progetti con le varie funzionalità presenti.
+
+**GitHub** è diventato uno degli strumenti più popolari per lo sviluppo collaborativo di software open source, ma viene utilizzato anche per progetti privati e commerciali.
+
+## In conclusione...
+
+In breve, **Git** è il sistema di controllo delle versioni utilizzato per gestire le modifiche al codice sorgente, mentre **GitHub** è una piattaforma basata su **Git** che fornisce strumenti aggiuntivi per la collaborazione e la gestione dei progetti software.
+
+
+
+
