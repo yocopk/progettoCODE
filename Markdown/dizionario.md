@@ -48,3 +48,15 @@ Ricorda che è importante essere nella **directory corretta** del tuo progetto q
 \*\*.
 
 Se preferisci un'interfaccia grafica, ci sono anche client Git con interfaccia utente che ti permettono di eseguire le operazioni Git utilizzando un'interfaccia grafica anziché la riga di comando. Alcuni esempi includono GitHub Desktop, GitKraken e SourceTree.
+
+# Cos'è GitHub?
+
+![github icona](./img/github-icon.png)
+
+**GitHub** è una piattaforma di hosting di codice basata su Git. Fornisce agli sviluppatori uno spazio per ospitare i propri repository (un archivio di dati ed informazioni), collaborare con altri sviluppatori, gestire le problematiche e i progetti con le varie funzionalità presenti.
+
+**GitHub** è diventato uno degli strumenti più popolari per lo sviluppo collaborativo di software open source, ma viene utilizzato anche per progetti privati e commerciali.
+
+## In conclusione...
+
+In breve, **Git** è il sistema di controllo delle versioni utilizzato per gestire le modifiche al codice sorgente, mentre **GitHub** è una piattaforma basata su **Git** che fornisce strumenti aggiuntivi per la collaborazione e la gestione dei progetti software.
