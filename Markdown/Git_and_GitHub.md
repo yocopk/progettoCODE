@@ -16,6 +16,8 @@ Ecco alcuni esempi di comandi **Git** da effettuare tramite terminale con il lor
 
 - **git init** // Inizializza un nuovo repository Git nella directory corrente:
 - **git clone [URL]** // Clona un repository Git esistente dalla sua URL remota sulla tua macchina locale.
+- **git remote add [URL]** // Collega il repository remoto a quello locale.
+- **git remote -v** // Mostra i repository remoti collegati e le rispettive URL.
 - **git add [file]** // Aggiunge un file al tuo "staging area", preparandolo per essere committato.
 - **git commit -m [messaggio]** // Committa le modifiche presenti nel tuo staging area con un messaggio di commint descrittivo.
 - **git push origin main** // Carica i tuoi commit locali sul repository remoto.
@@ -28,7 +30,6 @@ Ecco alcuni esempi di comandi **Git** da effettuare tramite terminale con il lor
 - **git status** // Mostra lo stato attuale del tuo repository Git, inclusi i file modificati, i file nel staging area e altro.
 - **git log** // Mostra la cronologia dei commit nel repository, incluso l'autore, la data e il messaggio del commit.
 - **git diff** // Mostra le differenze tra il working directory e l'area di staging.
-- **git remote -v** // Mostra i repository remoti collegati e le rispettive URL.
 - **git reset [file]** // Rimuove un file dallo staging area, mantenendo le modifiche nel working directory.
 - **git rm [file]** // Rimuove un file dal repository Git.
 - **git fetch** // Recupera i dati dal repository remoto senza unire i cambiamenti nel tuo repository locale.
