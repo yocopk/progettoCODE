@@ -6,38 +6,44 @@
 
 ## Qual è la storia di Git?
 
-**Git** è un termine gergale inglese che indica una persona giovane o un giovane poco affidabile. Tuttavia, nel suo contesto il nome "Git" è stato scelto da ***Linus Torvalds***, con l'intento di creare un nome un pò sarcastico, suggerendo che fosse un sistema "testardo" o "difficile" da usare. In realtà **Git** è diventato estremamente popolare nello sviluppo software, nonostante il suo nome possa dare un'idea di ostinazione e difficoltà.
+**Git** è un termine gergale inglese che indica una persona giovane o un giovane poco affidabile. Tuttavia, nel suo contesto il nome "Git" è stato scelto da **_Linus Torvalds_**, con l'intento di creare un nome un pò sarcastico, suggerendo che fosse un sistema "testardo" o "difficile" da usare. In realtà **Git** è diventato estremamente popolare nello sviluppo software, nonostante il suo nome possa dare un'idea di ostinazione e difficoltà.
 
 ## Quali sono i comandi più comuni?
 
 Ecco alcuni esempi di comandi **Git** da effettuare tramite terminale con il loro significato:
 
 - **git init** // Inizializza un nuovo repository Git nella directory corrente:
--  **git clone [URL]** // Clona un repository Git esistente dalla sua URL remota sulla tua macchina locale.
--  **git add [file]** // Aggiunge un file al tuo "staging area", preparandolo per essere committato.
+- **git clone [URL]** // Clona un repository Git esistente dalla sua URL remota sulla tua macchina locale.
+- **git add [file]** // Aggiunge un file al tuo "staging area", preparandolo per essere committato.
 - **git commit -m [messaggio]** // Committa le modifiche presenti nel tuo staging area con un messaggio di commint descrittivo.
--  **git push** // Carica i tuoi commit locali sul repository remoto.
--  **git pull** // Aggiorna il tuo repository locale con le modifiche dal repository remoto.
--  **git branch** // Visualizza l'elenco dei rami nel repository.
--  **git checkout [branch]** // Passa a un altro ramo del repository.
--  **git merge [branch]** // Unisce un altro ramo al ramo attuale.
+- **git push origin main** // Carica i tuoi commit locali sul repository remoto.
+- **git pull origin main** // Aggiorna il tuo repository locale con le modifiche dal repository remoto.
+- **git branch** // Visualizza l'elenco dei rami nel repository.
+- **git checkout [branch]** // Passa a un altro ramo del repository.
+- **git merge [branch]** // Unisce un altro ramo al ramo attuale.
+- **git status** // Mostra lo stato attuale del tuo repository Git, inclusi i file modificati, i file nel staging area e altro.
+- **git log** // Mostra la cronologia dei commit nel repository, incluso l'autore, la data e il messaggio del commit.
+- **git diff** // Mostra le differenze tra il working directory e l'area di staging.
+- **git remote -v** // Mostra i repository remoti collegati e le rispettive URL.
+- **git reset [file]** // Rimuove un file dallo staging area, mantenendo le modifiche nel working directory.
+- **git checkout -b [branch]** // Crea un nuovo ramo e passa ad esso in un'unica operazione.
+- **git rm [file]** // Rimuove un file dal repository Git.
+- **git fetch** // Recupera i dati dal repository remoto senza unire i cambiamenti nel tuo repository locale.
+- **git tag [tagname]** // Crea un nuovo tag per un commit specifico.
+- **git stash** // Nasconde le modifiche locali temporaneamente, permettendo di lavorare su un'altra parte del codice.
 
 ## Dove uso questi comandi?
 
 I comandi **Git** vengono utilizzati principalmente tramite la riga di comando o la shell del tuo sistema operativo. Ecco come puoi utilizzarli:
 
 1.  **Apri il terminale o la shell**: Prima di tutto, apri il terminale o la shell del tuo sistema operativo. Puoi farlo cercando "Terminale" (su macOS e Linux) o "Prompt dei comandi" (su Windows) nel menu di avvio.
-    
 2.  **Naviga nella directory del tuo progetto**: Utilizza il comando `cd` per navigare nella directory del tuo progetto. Ad esempio, se il tuo progetto si trova nella cartella "Progetto", digita `cd Progetto`.
-    
 3.  **Esegui i comandi Git**: Una volta nella directory del tuo progetto, puoi utilizzare i comandi Git come descritto in precedenza. Ad esempio, per inizializzare un nuovo repository Git, esegui `git init`. Per clonare un repository esistente, esegui `git clone [URL]`, e così via.
-    
 
-Ricorda che è importante essere nella **directory corretta** del tuo progetto quando esegui i comandi Git, in modo che i comandi agiscano sul **
-**.
+Ricorda che è importante essere nella **directory corretta** del tuo progetto quando esegui i comandi Git, in modo che i comandi agiscano sul \*\*
+\*\*.
 
 Se preferisci un'interfaccia grafica, ci sono anche client Git con interfaccia utente che ti permettono di eseguire le operazioni Git utilizzando un'interfaccia grafica anziché la riga di comando. Alcuni esempi includono GitHub Desktop, GitKraken e SourceTree.
-
 
 # Cos'è GitHub?
 
@@ -48,7 +54,3 @@ Se preferisci un'interfaccia grafica, ci sono anche client Git con interfaccia u
 ## In conclusione...
 
 In breve, **Git** è il sistema di controllo delle versioni utilizzato per gestire le modifiche al codice sorgente, mentre **GitHub** è una piattaforma basata su **Git** che fornisce strumenti aggiuntivi per la collaborazione e la gestione dei progetti software.
-
-
-
-
