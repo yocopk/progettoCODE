@@ -16,8 +16,8 @@ Ecco alcuni esempi di comandi **Git** da effettuare tramite terminale con il lor
 - **git clone [URL]** // Clona un repository Git esistente dalla sua URL remota sulla tua macchina locale.
 - **git add [file]** // Aggiunge un file al tuo "staging area", preparandolo per essere committato.
 - **git commit -m [messaggio]** // Committa le modifiche presenti nel tuo staging area con un messaggio di commint descrittivo.
-- **git push** // Carica i tuoi commit locali sul repository remoto.
-- **git pull** // Aggiorna il tuo repository locale con le modifiche dal repository remoto.
+- **git push origin main** // Carica i tuoi commit locali sul repository remoto.
+- **git pull origin main** // Aggiorna il tuo repository locale con le modifiche dal repository remoto.
 - **git branch** // Visualizza l'elenco dei rami nel repository.
 - **git checkout [branch]** // Passa a un altro ramo del repository.
 - **git merge [branch]** // Unisce un altro ramo al ramo attuale.
