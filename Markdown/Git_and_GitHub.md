@@ -21,14 +21,15 @@ Ecco alcuni esempi di comandi **Git** da effettuare tramite terminale con il lor
 - **git push origin main** // Carica i tuoi commit locali sul repository remoto.
 - **git pull origin main** // Aggiorna il tuo repository locale con le modifiche dal repository remoto.
 - **git branch** // Visualizza l'elenco dei rami nel repository.
+- **git log** // Controlli la lista dei commit in ordine cronologico.
 - **git checkout [branch]** // Passa a un altro ramo del repository.
+- **git checkout -b [nome_branch]** // Crea un nuovo ramo e passa ad esso in un'unica operazione.
 - **git merge [branch]** // Unisce un altro ramo al ramo attuale.
 - **git status** // Mostra lo stato attuale del tuo repository Git, inclusi i file modificati, i file nel staging area e altro.
 - **git log** // Mostra la cronologia dei commit nel repository, incluso l'autore, la data e il messaggio del commit.
 - **git diff** // Mostra le differenze tra il working directory e l'area di staging.
 - **git remote -v** // Mostra i repository remoti collegati e le rispettive URL.
 - **git reset [file]** // Rimuove un file dallo staging area, mantenendo le modifiche nel working directory.
-- **git checkout -b [branch]** // Crea un nuovo ramo e passa ad esso in un'unica operazione.
 - **git rm [file]** // Rimuove un file dal repository Git.
 - **git fetch** // Recupera i dati dal repository remoto senza unire i cambiamenti nel tuo repository locale.
 - **git tag [tagname]** // Crea un nuovo tag per un commit specifico.
