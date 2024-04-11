@@ -1,5 +1,7 @@
 ﻿# Cos'è Git?
 
+![icona di git](./img/git-icon.png)
+
 **Git** è un sistema di controllo delle **versioni**, progettato per gestire progetti di qualsiasi dimensione con comodità ed efficienza. Viene utilizzato principalmente dagli sviluppatori di software per tenere traccia delle modifiche del codice durante lo sviluppo di un progetto.
 
 **Git** registra ogni modifica del codice dando la possibilità di fare un rollback (tornare ad una versione precedente) qualora si presentasse la necessità.
@@ -46,6 +48,8 @@ Ricorda che è importante essere nella **directory corretta** del tuo progetto q
 Se preferisci un'interfaccia grafica, ci sono anche client Git con interfaccia utente che ti permettono di eseguire le operazioni Git utilizzando un'interfaccia grafica anziché la riga di comando. Alcuni esempi includono GitHub Desktop, GitKraken e SourceTree.
 
 # Cos'è GitHub?
+
+![github icona](./img/github-icon.png)
 
 **GitHub** è una piattaforma di hosting di codice basata su Git. Fornisce agli sviluppatori uno spazio per ospitare i propri repository (un archivio di dati ed informazioni), collaborare con altri sviluppatori, gestire le problematiche e i progetti con le varie funzionalità presenti.
 
