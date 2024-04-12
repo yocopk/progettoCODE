@@ -85,3 +85,31 @@ Le intestazioni in Markdown vengono create aggiungendo uno o più simboli `#` pr
 _Testo in corsivo_
 **Testo in grassetto**
 ```
+
+## Liste
+
+Markdown supporta sia liste ordinate che non ordinate. Le liste non ordinate possono essere create utilizzando simboli `-`, `+` o `*`, mentre le liste ordinate utilizzano numeri seguiti da un punto. Esempi:
+
+```markdown
+- Elemento 1
+- Elemento 2
+- Elemento 3
+
+1. Primo elemento
+2. Secondo elemento
+3. Terzo elemento
+```
+
+## Link
+
+I link possono essere inseriti utilizzando la seguente sintassi:
+
+```markdown
+[Testo del link](URL_del_link)
+```
+
+Ad esempio:
+
+```markdown
+[Visita Google](https://google.com)
+```
