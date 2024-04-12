@@ -113,3 +113,49 @@ Ad esempio:
 ```markdown
 [Visita Google](https://google.com)
 ```
+
+## Immagini
+
+Le immagini possono essere incorporate utilizzando la sintassi simile a quella dei link, ma precedendo il testo con un punto esclamativo `!`. Ad esempio:
+
+```markdown
+![Testo alternativo dell'immagine](URL_dell'immagine)
+```
+
+Che verrà visualizzato in questo modo:
+
+![Immagine a caso](https://picsum.photos/200)
+
+## Citazioni
+
+Le citazioni possono essere inserite utilizzando il simbolo `>` all'inizio della riga. Esempio:
+
+```markdown
+> Questa è una citazione.
+```
+
+## Codice
+
+Per formattare blocchi di codice, puoi usare tre backticks ``` seguiti dal nome del linguaggio di programmazione. Ad esempio:
+
+\```javascript
+console.log("Hello, world!")
+\```
+
+Che verrà visto in questo modo:
+
+```javascript
+console.log("Hello, world!");
+```
+
+## Linee Orizzontali
+
+Per inserire una linea orizzontale, puoi utilizzare tre o più trattini `-`, asterischi `*`, o trattini bassi `_`. Esempio:
+
+```markdown
+---
+```
+
+## Conclusioni
+
+Questa è solo una breve panoramica del Markdown e delle sue caratteristiche più comuni. Con queste semplici regole, puoi creare documenti formattati in modo chiaro e leggibile senza dover affrontare la complessità dei linguaggi di markup più avanzati. Spero che questa guida ti sia stata utile per iniziare con il Markdown!
