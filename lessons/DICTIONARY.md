@@ -60,3 +60,28 @@ Se preferisci un'interfaccia grafica, ci sono anche client Git con interfaccia u
 ## In conclusione...
 
 In breve, **Git** è il sistema di controllo delle versioni utilizzato per gestire le modifiche al codice sorgente, mentre **GitHub** è una piattaforma basata su **Git** che fornisce strumenti aggiuntivi per la collaborazione e la gestione dei progetti software.
+
+# Markdown: Una breve guida
+
+Il Markdown è un linguaggio di formattazione leggero e facile da usare per la creazione di documenti testuali formattati. È comunemente utilizzato per scrivere documentazione, messaggi di forum, pagine web, e persino per scrivere articoli su piattaforme come GitHub o Medium. In questa breve guida, esploreremo le basi del Markdown e alcuni dei suoi elementi più comuni.
+
+## Intestazioni
+
+Le intestazioni in Markdown vengono create aggiungendo uno o più simboli `#` prima del testo. Più simboli `#` indicano un'intestazione di livello inferiore. Ad esempio:
+
+```markdown
+# Intestazione di Livello 1
+
+## Intestazione di Livello 2
+
+### Intestazione di Livello 3
+```
+
+## Testo Formattato
+
+È possibile formattare il testo utilizzando simboli di asterisco `*` o trattini bassi `_` per enfatizzare o rendere in grassetto il testo. Ad esempio:
+
+```markdown
+_Testo in corsivo_
+**Testo in grassetto**
+```
