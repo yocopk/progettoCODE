@@ -12,9 +12,7 @@
 
 ## Quali sono i comandi più comuni?
 
-Ecco alcuni esempi di comandi **Git** da effettuare tramite terminale con il loro significato:
-
-Ecco i comandi ordinati in un flusso logico tipico di utilizzo di Git:
+Ecco alcuni esempi di comandi **Git** ordinati in un flusso logico tipico di utilizzo **Git** da effettuare tramite terminale con il loro significato:
 
 1. `git init` // Inizializza un nuovo repository Git nella directory corrente.
 2. `git clone [URL]` // Clona un repository Git esistente dalla sua URL remota sulla tua macchina locale.
