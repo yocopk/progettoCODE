@@ -1,5 +1,3 @@
-Certamente! Ecco una lezione di base sull'HTML scritta in Markdown:
-
 # Lezione di HTML
 
 ## Introduzione
